@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10vh 80vh 10vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: rebeccapurple;
+    color: whitesmoke;
+}
+
+header h1 {
+    line-height: 10vh;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+nav {
+    background-color: yellowgreen;
+}
+
+nav a {
+    line-height: 5vh;
+    padding: 0.2rem 0.5rem;
+    color: rebeccapurple;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rebeccapurple;
+}
+
+main {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+footer address {
+    line-height: 5vh;
+    margin-left: 1rem;
+}
+
+footer address a {
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+footer address a:hover {
+    color: deepskyblue;
+}
+
+p {
+    margin: 0.5rem;
+}
+
+h2 {
+    margin: 0.7rem 0.5rem;
+    font-size: 1.7rem;
+}
+
+@media screen and (min-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    footer address {
+        line-height: 10vh;
+    }
+}

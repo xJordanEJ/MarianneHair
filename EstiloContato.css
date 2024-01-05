@@ -1,0 +1,86 @@
+@charset "UTF-8"
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 3s;
+}
+header.rolagem{
+    background-color: #FFF;
+    padding: 20px 4%;
+}
+header.rolagem a, header.rolagem i{
+    color: hsl(23, 42%, 51%);
+}
+header i{
+    font-size: 30px;
+    color: #FFF;
+}
+header ul{
+    list-style-type: none;
+    text-align: center;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 50px;
+}
+
+header ul li a{
+    color: hwb(0 11% 87%);
+    text-decoration: none;
+    font-family: var(--fonte2);
+
+}
+.banner {
+    height: 100vh;
+    background-image: url(ImagensBase/MarianneContato.png);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.banner h1{
+    font-size: 2em;
+    color: rgb(204, 202, 202);
+    font-family: var(--fonte2);
+
+}
+.banner h1 span{
+    font-size: center;
+    color: hsl(23, 42%, 51%);
+    font-family: var(--fonte2);
+}
+.footer{
+    background-color:#B6764E;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    padding: 0.5px 3%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transition: 1s;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+.footer span{
+text-decoration: underline;
+font-weight:  bolder;
+font-size: 15px;
+color: black;
+}
+footer.rolagem{
+    background-color: #FFF;
+    padding: 20px 4%;
+}
